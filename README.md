@@ -39,6 +39,9 @@ Vereinfachung der Bedienung.
   gewählte Service Component als MP3-Strom, WAV oder Wiedergabe.
 * **`ws_encode_gui.py` / `ws_radio_gui.py`** sind bequeme Bedienoberflächen, die die Konsolenprogramme aufrufen.
 
+
+![txrx](https://github.com/radiolab81/Worldspace/blob/main/docs/TXRX.png)
+
 ---
 
 ## 2. Historie
@@ -381,6 +384,8 @@ Die GUIs enthalten **keine** eigene Signalverarbeitung: Sie bauen die Kommandoze
 3. **Befehl und Start:** Die Kommandozeile ist sichtbar und kopierbar. „Prüfen (Trockenlauf)“, „Encoder starten“,
    „Abbrechen“, „Im Radio öffnen“. Projekte als `.wsproj` speichern/laden (Menü Datei).
 
+   ![encoder](https://github.com/radiolab81/Worldspace/blob/main/docs/Encoder.png)
+
 **Radio-GUI**
 1. Datei wählen (Format/sps unter „Erweitert“ nur bei Dateien ohne `.json`), **Scannen**.
 2. Der Baum zeigt BCID → Name → SC mit Bitrate, Typ, PRC und Rahmenstatistik (z. B. „5/5 Rahmen ok“); oben
@@ -388,6 +393,8 @@ Die GUIs enthalten **keine** eigene Signalverarbeitung: Sie bauen die Kommandoze
 3. **Doppelklick** oder „Abspielen“: Pause, Suchleiste, Lautstärke. „WAV speichern …“ und „SC-Rohdaten (MP3)
    speichern …“. „Cache neu erzeugen“ erzwingt neue Demodulation; Menü „Konfiguration“ zeigt die offenen
    Schalter aus `wsconfig.py`.
+
+   ![decoder](https://github.com/radiolab81/Worldspace/blob/main/docs/Decoder.png)
 
 ### 6.5 `selftest.py`
 ```bash
